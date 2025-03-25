@@ -10,6 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
+  // eslint-disable-next-line no-unused-vars
   const [index, setIndex] = useState(1);
   const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
   const period = 2000;
@@ -69,6 +70,7 @@ export const Banner = () => {
                     {`Hi! I'm Arpit`}{" "}
                     <span
                       className="txt-rotate"
+                      // eslint-disable-next-line react/no-unknown-property
                       dataPeriod="1000"
                       data-rotate='[ "Full Stack Developer", "Web Developer", "Web Designer" ]'
                     >

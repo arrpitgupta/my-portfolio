@@ -83,7 +83,7 @@ export default function NavBar() {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="https://www.linkedin.com/in/arpit-gupta-0a75a2227/">
+              <HashLink target="_blank" to="https://www.linkedin.com/in/arpit-gupta-0a75a2227/">
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
