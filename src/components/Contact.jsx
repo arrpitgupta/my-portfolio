@@ -99,9 +99,7 @@ export default function Contact() {
                           onChange={(e) => onFormUpdate("name", e.target.value)}
                         />
                       </Col>
-                      {/* <Col xs={12} sm={6} className="px-1">
-                        <input type="text" value={formData.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate("lastName", e.target.value)} />
-                      </Col> */}
+                     
                       <Col xs={12} sm={6} className="px-1">
                         <input
                           type="email"
